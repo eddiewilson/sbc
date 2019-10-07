@@ -1,0 +1,84 @@
+.fe-AppLayout {
+  width: 8.5in;
+  height: 11in;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+  justify-content: flex-start;
+  min-height: 100%;
+  min-width: 8.5in;
+}
+#invoice-header .logo {
+  min-height: unset !important;
+  height: 65pt !important;
+  margin: 0 auto;
+  float: none;
+  width: 99% !important;
+  overflow: hidden;
+  object-fit: contain;
+}
+#invoice_items .item {
+  width: 100%;
+  margin: 0 auto;
+}
+#invoice #header_row {
+  width: 100%;
+  margin: 0 auto;
+}
+#net_total_tr {
+  width: 100%;
+  margin: 0 auto;
+}
+#vat_tr {
+  width: 100%;
+  margin: 0 auto;
+}
+#total_tr {
+  width: 100%;
+  margin: 0 auto;
+}
+.draft #invoice.pagestyle {
+  padding-right: 0;
+}
+#invoice #invoice-info h3:before {
+  right: 153px;
+}
+.fe-PageLayout-column--sticky {
+  display: none;
+}
+#sort-code:before {
+  bottom: -58px;
+}
+#company-address,
+#client-details,
+#invoice-info,
+#invoice-info {
+  font-size: 11pt !important;
+}
+#company-address,
+#client-details,
+#payment-details,
+#invoice-other,
+#invoice-amount td,
+th,
+#invoice-info {
+  font-size: 11pt !important;
+}
+#account-number:before,
+#account-number:after,
+#payment-reference:before,
+#payment-reference:after {
+  font-size: 9pt !important;
+}
+#account-number:after {
+  bottom: -78px;
+}
+#payment-reference:before {
+  bottom: -76px;
+}
+#invoice-other h2 {
+  right: -10px;
+}
